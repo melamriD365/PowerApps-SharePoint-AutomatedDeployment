@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>mea_workprogresstracker_044a7</Name>
+  <AppVersion>2024-09-21T13:59:29Z</AppVersion>
+  <Status>NotReady</Status>
+  <CreatedByClientVersion>3.24091.13.0</CreatedByClientVersion>
+  <MinClientVersion>3.24091.13.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24091.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Work progress tracker</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"56d01ad7-313b-4d14-ab32-c82b27d35057":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":["Work progress tracker"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://3fsi.sharepoint.com/sites/MEA-DEV_mea_shared_sharepointonline_d2407be62a30477fa76b9cda5c82305f":{"datasetOverride":{"environmentVariableName":"mea_shared_sharepointonline_d2407be62a30477fa76b9cda5c82305f"},"dataSources":{"Work progress tracker":{"tableName":"70623b73-8d23-42d0-84aa-509e25c62964","tableNameOverride":{"environmentVariableName":"mea_shared_sharepointonline_1e39c2b89755430bb0dccc6d756b0c61"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"mea_shared_sharepointonline_d2407be62a30477fa76b9cda5c82305f","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"mea_shared_sharepointonline_1e39c2b89755430bb0dccc6d756b0c61","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/mea_workprogresstracker_044a7_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/mea_workprogresstracker_044a7_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/mea_workprogresstracker_044a7_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

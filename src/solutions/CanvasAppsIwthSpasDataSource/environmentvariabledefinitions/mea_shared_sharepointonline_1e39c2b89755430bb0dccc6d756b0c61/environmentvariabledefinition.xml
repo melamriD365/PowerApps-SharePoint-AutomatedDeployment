@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="mea_shared_sharepointonline_1e39c2b89755430bb0dccc6d756b0c61">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <displayname default="Work progress tracker">
+    <label description="Work progress tracker" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>mea_shared_sharepointonline_d2407be62a30477fa76b9cda5c82305f</schemaname>
+  </parentdefinitionid>
+  <secretstore>0</secretstore>
+  <type>100000004</type>
+</environmentvariabledefinition>
