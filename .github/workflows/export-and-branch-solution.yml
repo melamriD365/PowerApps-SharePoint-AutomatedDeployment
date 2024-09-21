@@ -14,15 +14,15 @@ on:
       solution_exported_folder:
         description: 'folder name for staging the exported solution *do not change*'
         required: true
-        default: Core/out/exported/
+        default: src/out/exported/
       solution_folder:
         description: 'staging the unpacked solution folder before check-in *do not change*'
         required: true
-        default: Core/out/solutions/
+        default: src/out/solutions/
       solution_target_folder: 
        description: 'folder name to be created and checked in *do not change*'
        required: true
-       default: Core/solutions/
+       default: src/solutions/
       commit-comment: 
        description: 'Your commit comment'
        required: true
