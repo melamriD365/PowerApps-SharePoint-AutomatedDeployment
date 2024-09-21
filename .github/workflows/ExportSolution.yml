@@ -34,6 +34,9 @@ jobs:
     runs-on: windows-latest
     environment: DEV
     steps:
+    - name: Support longpaths
+      run: git config --system core.longpaths true
+
     - uses: actions/checkout@v3
       with:
         lfs: true
